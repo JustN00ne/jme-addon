@@ -3,11 +3,7 @@
   "minVersion": "0.8",
   "package": "org.justnoone.jme.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-    "SidingSchemaMixin",
-    "SidingMixin",
-    "VehicleSpeedCapMixin"
-  ],
+  "mixins": [],
   "injectors": {
     "defaultRequire": 1
   },
