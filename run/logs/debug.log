@@ -3382,3 +3382,102 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [18:45:56] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
 [18:45:56] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
 [18:45:57] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:02] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:06] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:06] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:12] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:19] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:21] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:21] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:25] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:25] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:25] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:25] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:26] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:26] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:27] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:31] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:36] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:36] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:41] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:47] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:48] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:48] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Starting registry save
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:command_argument_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_rule
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:position_source_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:height_provider_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_block_entity_modifier
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/density_function_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:frog_variant
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:banner_pattern
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:instrument
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:decorated_pot_patterns
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:mob_effect
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:float_provider_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_score_provider_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_condition
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:int_provider_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:cat_variant
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_placement
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_nbt_provider_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:creative_mode_tab
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/placement_modifier_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_number_provider_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:game_event
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/root_placer_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:painting_variant
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_predicate_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[18:46:49] [Server thread/DEBUG] (FabricRegistrySync) Not saving empty registry data
+[18:46:52] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:52] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:53] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:53] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:53] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:54] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:46:59] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:47:03] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:47:03] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
+[18:47:09] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player729) Handling inbound packet from channel with name "mtr:packet"
