@@ -12,7 +12,6 @@ def mcVer = (project.findProperty("minecraft_version") ?: "1.20.1").toString()
 def mcMinor = Integer.parseInt(mcVer.split("\\.")[1])
 def targetJava = mcMinor <= 16 ? 8 : (mcMinor == 17 ? 16 : 17)
 def dependencyCompatMcVer = ["1.19": "1.19.2", "1.21.1": "1.20.4"].get(mcVer, mcVer)
-def mappingsMcVer = dependencyCompatMcVer
 
 def jsonSlurper = new JsonSlurper()
 
@@ -94,7 +93,6 @@ dependencies {
     modImplementation "maven.modrinth:minecraft-transit-railway:${resolvedMtrVersion}"
     modImplementation "com.terraformersmc:modmenu:${resolvedModMenuVersion}"
 
-    implementation "org.mtr:Minecraft-Mappings-fabric-${mappingsMcVer}:0.0.1-dev"
     compileOnly "com.google.code.findbugs:jsr305:3.0.2"
     implementation "org.tukaani:xz:1.9"
     include "org.tukaani:xz:1.9"
