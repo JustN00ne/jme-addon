@@ -839,13 +839,54 @@ public class BlockTrainDetector extends BlockTrainPoweredSensorBase {
         }
     }
 
-    private record VehicleSnapshot(long vehicleId, long routeId, double speed, double railProgress, double tailProgress, java.util.List<PathData> path, int headIndex, double totalVehicleLength) {
+    private static final class VehicleSnapshot {
+        private final long vehicleId;
+        private final long routeId;
+        private final double speed;
+        private final double railProgress;
+        private final double tailProgress;
+        private final java.util.List<PathData> path;
+        private final int headIndex;
+        private final double totalVehicleLength;
+
+        private VehicleSnapshot(long vehicleId, long routeId, double speed, double railProgress, double tailProgress, java.util.List<PathData> path, int headIndex, double totalVehicleLength) {
+            this.vehicleId = vehicleId;
+            this.routeId = routeId;
+            this.speed = speed;
+            this.railProgress = railProgress;
+            this.tailProgress = tailProgress;
+            this.path = path;
+            this.headIndex = headIndex;
+            this.totalVehicleLength = totalVehicleLength;
+        }
     }
 
-    private record DetectorCache(Object2ObjectOpenHashMap<Position, NodeOccupancy> occupancyByNode, java.util.List<VehicleSnapshot> vehicleSnapshots) {
+    private static final class DetectorCache {
+        private final Object2ObjectOpenHashMap<Position, NodeOccupancy> occupancyByNode;
+        private final java.util.List<VehicleSnapshot> vehicleSnapshots;
+
+        private DetectorCache(Object2ObjectOpenHashMap<Position, NodeOccupancy> occupancyByNode, java.util.List<VehicleSnapshot> vehicleSnapshots) {
+            this.occupancyByNode = occupancyByNode;
+            this.vehicleSnapshots = vehicleSnapshots;
+        }
     }
 
-    private record DetectorRailLocation(String railHexId, Position orderedPosition1, Position orderedPosition2, double offsetFromOrderedPosition1, double railLength, double distanceSquared) {
+    private static final class DetectorRailLocation {
+        private final String railHexId;
+        private final Position orderedPosition1;
+        private final Position orderedPosition2;
+        private final double offsetFromOrderedPosition1;
+        private final double railLength;
+        private final double distanceSquared;
+
+        private DetectorRailLocation(String railHexId, Position orderedPosition1, Position orderedPosition2, double offsetFromOrderedPosition1, double railLength, double distanceSquared) {
+            this.railHexId = railHexId;
+            this.orderedPosition1 = orderedPosition1;
+            this.orderedPosition2 = orderedPosition2;
+            this.offsetFromOrderedPosition1 = offsetFromOrderedPosition1;
+            this.railLength = railLength;
+            this.distanceSquared = distanceSquared;
+        }
 
         boolean matches(PathData pathData) {
             if (pathData == null || orderedPosition1 == null || orderedPosition2 == null) {
@@ -1042,6 +1083,13 @@ public class BlockTrainDetector extends BlockTrainPoweredSensorBase {
         return Long.parseUnsignedLong(hex, 16);
     }
 
-    private record ClosestPoint(double offsetFromOrderedStart, double distanceSquared) {
+    private static final class ClosestPoint {
+        private final double offsetFromOrderedStart;
+        private final double distanceSquared;
+
+        private ClosestPoint(double offsetFromOrderedStart, double distanceSquared) {
+            this.offsetFromOrderedStart = offsetFromOrderedStart;
+            this.distanceSquared = distanceSquared;
+        }
     }
 }
